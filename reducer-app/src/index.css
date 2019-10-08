@@ -10,4 +10,15 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+   
+}
+
+.card {
+  cursor: pointer;
+   font-size: 1.6rem;
+}
+
+.card.completed {
+  text-decoration: line-through;
+  color: green;
 }
